@@ -1,8 +1,13 @@
-require("hacker")
-print("hello")
+require("hacker.core.keymaps")
+require("hacker.core.packer")
+require("hacker.core.set")
 
--- tab/indent options 
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
-vim.opt.softtabstop = 2
-vim.opt.expandtab = true
+require("hacker.plugins.colours")
+require("hacker.plugins.filebrowser")
+require("hacker.plugins.fugitive")
+require("hacker.plugins.harpoon")
+require("hacker.plugins.lsp")
+require("hacker.plugins.telescope")
+require("hacker.plugins.terminal")
+require("hacker.plugins.treesitter")
+require("hacker.plugins.undotree")
